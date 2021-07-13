@@ -5,6 +5,13 @@
 # assert(handToDice(422) == (4,2,2))
 # Hint: You might find // and % useful here, and also getKthDigit().
 
+def getKthDigit(n, k):
+    n = int(n / 10 ** k)
+    return abs(n) % 10
+
 def handtodice(hand):
-	# your code goes here
-	pass
+    n1 = getKthDigit(hand, 2)
+    n2 = getKthDigit(hand, 1)
+    n3 = getKthDigit(hand, 0)
+    return (n1, n2, n3)
+
