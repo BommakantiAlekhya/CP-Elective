@@ -748,6 +748,34 @@
             "keyStrokeTimeStamp": "Tue Jul 13 2021 10:18:08",
             "keyStrokeInfo": "",
             "position": "13,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 10:23:11",
+            "keyStrokeInfo": "",
+            "position": "13,16"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 10:23:11",
+            "keyStrokeInfo": "e",
+            "position": "13,16"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 10:23:11",
+            "keyStrokeInfo": "4",
+            "position": "13,17"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 13 2021 10:23:12",
+            "keyStrokeInfo": "",
+            "position": "13,17"
         }
     ]
 }
