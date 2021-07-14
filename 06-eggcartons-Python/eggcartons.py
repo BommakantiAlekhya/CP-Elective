@@ -5,5 +5,10 @@
 
 
 def fun_eggcartons(eggs):
-    
-	return 1
+    unit=eggs//12
+    eggs=eggs%12
+    if(eggs == 0):
+        return unit
+    else:
+        return unit+1
+    print(fun_eggCartons(int(input())))
