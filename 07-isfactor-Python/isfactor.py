@@ -6,4 +6,11 @@
 
 
 def fun_isfactor(f, n):
-	return False # replace with your solution
+    while f * f <= n:
+        if f % n == 0:
+            f /= n
+            #return True
+        else: f += 1
+        #return False
+print(fun_isfactor(2, 2))
+
