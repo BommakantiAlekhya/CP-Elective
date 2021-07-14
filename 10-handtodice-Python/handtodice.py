@@ -14,4 +14,3 @@ def handtodice(hand):
     n2 = getKthDigit(hand, 1)
     n3 = getKthDigit(hand, 0)
     return (n1, n2, n3)
-

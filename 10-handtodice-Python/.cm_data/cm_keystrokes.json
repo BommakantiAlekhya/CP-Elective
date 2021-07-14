@@ -1063,6 +1063,13 @@
             "keyStrokeTimeStamp": "Tue Jul 13 2021 11:41:39",
             "keyStrokeInfo": "",
             "position": "17,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 08:58:37",
+            "keyStrokeInfo": "",
+            "position": "16,24"
         }
     ]
 }
