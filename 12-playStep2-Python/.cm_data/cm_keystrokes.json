@@ -1,0 +1,11 @@
+{
+    "playstep2.py": [
+        {
+            "operation": "PASTE",
+            "lines": 52,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 09:23:24",
+            "keyStrokeInfo": "def getKthDigit(n, k):\r\n    n = int(n / 10 ** k)\r\n    return abs(n) % 10\r\n\r\n\r\ndef handtodice(hand):\r\n\t# your code goes here\r\n\r\n\tn1 = getKthDigit(hand, 2)\r\n\tn2 = getKthDigit(hand, 1)\r\n\tn3 = getKthDigit(hand, 0)\r\n\treturn (n1, n2, n3)\r\n\r\n\r\ndef dicetoorderedhand(a, b, c):\r\n\t# your code goes here\r\n\tif a == max(a, b, c):\r\n\t\ttmp = max(b, c)\r\n\telif b == max(a, b, c):\r\n\t\ttmp = max(a, c)\r\n\telse:\r\n\t\ttmp = max(a, b)\r\n\treturn max(a, b, c) * 100 + tmp * 10 + min(a, b, c)\r\n\r\n\r\ndef playstep2(hand, dice):\r\n\r\n\t# your code goes here\r\n\tn1, n2, n3 = handtodice(hand)\r\n\r\n\t# if all dice matching\r\n\tif ((hand % 111) == 0):\r\n\t\treturn hand, dice\r\n\r\n\t# if two dice matching at starting\r\n\telif (((hand // 10) % 11) == 0):\r\n\t\tn3 = dice % 10\r\n\r\n\t# if two dice matching at the end\r\n\telif (((hand % 100) % 11) == 0):\t\r\n\t\tn1 = dice % 10\r\n\t\tdice //= 10\r\n\t\r\n\t# if two dice matching at anytime in middle\r\n\telse: \r\n\t\thighest = max(n1, n2, n3)\r\n\t\tn1 = highest\r\n\t\tn2 = dice % 10\r\n\t\tn3 = ((dice % 100) - n2) // 10\r\n\t\tdice //= 100\r\n\t\t\r\n\treturn dicetoorderedhand(n1, n2, n3), dice",
+            "position": "36,1"
+        }
+    ]
+}
