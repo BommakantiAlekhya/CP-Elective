@@ -1,0 +1,18 @@
+{
+    "removeduplicate.py": [
+        {
+            "operation": "PASTE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 10:20:30",
+            "keyStrokeInfo": "\r\n\t# Your code goes here\r\n\tpass",
+            "position": "6,27"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Wed Jul 14 2021 10:20:30",
+            "keyStrokeInfo": "    ",
+            "position": "7,1"
+        }
+    ]
+}
