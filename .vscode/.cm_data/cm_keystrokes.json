@@ -1,0 +1,11 @@
+{
+    "settings.json": [
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 16:18:04",
+            "keyStrokeInfo": "{\r\n    \"python.analysis.extraPaths\": [\r\n        \"./07-removeduplicate-Python\"\r\n    ]\r\n}",
+            "position": "1,1"
+        }
+    ]
+}
