@@ -1203,6 +1203,13 @@
             "keyStrokeTimeStamp": "Wed Jul 14 2021 15:47:17",
             "keyStrokeInfo": "",
             "position": "15,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 8,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 11:13:34",
+            "keyStrokeInfo": "\r\n\r\ndef fun_isfactor(f, n):\r\n    while f * f <= n:\r\n        if f % n == 0:\r\n            f /= n\r\n            #return True\r\n        else: f += 1\r\n        #return False\r\nprint(fun_isfactor(2, 2))\r\n\r\n",
+            "position": "6,1"
         }
     ]
 }
