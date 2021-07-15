@@ -1,0 +1,109 @@
+{
+    "isrighttriangle.py": [
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 11:14:29",
+            "keyStrokeInfo": "",
+            "position": "9,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 11:14:30",
+            "keyStrokeInfo": "",
+            "position": "8,45"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 11:14:30",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "8,45"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 16,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 11:14:31",
+            "keyStrokeInfo": "A= ((x1-x2)**2)+((y1-y2)**2)\r\n    B= ((x1-x3)**2)+((y1-y3)**2)\r\n    C= ((x2-x3)**2)+((y2-y3)**2)\r\n    if ((A > 0 and B > 0 and C > 0) and (A == (B + C) or B == (A + C) or C == (A + B))):\r\n        return True\r\n    else:\r\n        return False\r\n\t\r\n\r\nx1 = float(input())\r\ny1 = float(input())\r\nx2 = float(input())\r\ny2 = float(input())\r\nx3 = float(input())\r\ny3 = float(input())\r\nprint(isRightTriangle(x1, y1, x2, y2, x3, y3))",
+            "position": "9,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 11:14:38",
+            "keyStrokeInfo": "",
+            "position": "24,14"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 11:14:38",
+            "keyStrokeInfo": "t",
+            "position": "24,14"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 11:14:41",
+            "keyStrokeInfo": "",
+            "position": "24,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 11:14:42",
+            "keyStrokeInfo": "r",
+            "position": "24,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 11:16:49",
+            "keyStrokeInfo": "",
+            "position": "18,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 11:16:49",
+            "keyStrokeInfo": "",
+            "position": "17,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 11:16:51",
+            "keyStrokeInfo": "",
+            "position": "17,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 11:16:51",
+            "keyStrokeInfo": "",
+            "position": "16,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 11:16:52",
+            "keyStrokeInfo": "",
+            "position": "16,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 11:16:52",
+            "keyStrokeInfo": "",
+            "position": "15,21"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Jul 15 2021 11:16:53",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "15,21"
+        }
+    ]
+}
