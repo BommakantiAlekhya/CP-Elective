@@ -6,11 +6,17 @@
 
 
 def fun_isfactor(f, n):
-    while f * f <= n:
-        if f % n == 0:
-            f /= n
-            #return True
-        else: f += 1
-        #return False
-print(fun_isfactor(2, 2))
+    if f==0 and n==0:
+        return True
+    elif f==0:
+        return False
+    elif n==0:
+        return True
+    elif n%f==0:
+        return True
+    #elif f==2 or f==-2 and f==4:
+    #return True
+    else:
+        return False
+    print(fun_isfactor(2,4))
 
