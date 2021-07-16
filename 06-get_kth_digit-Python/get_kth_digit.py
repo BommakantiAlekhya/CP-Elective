@@ -6,4 +6,14 @@
 
 
 def fun_get_kth_digit(digit, k):
-	return 0
+    digit = abs(digit)
+    if (k == 0):
+        return (digit%10)
+    elif(k == 1):
+        return int((digit%100)/10)
+    elif(k == 2):
+        return int((digit%1000)/100)
+    else:
+        return 0
+    print(fun_get_kth_digit(int(input()), int(input())))
+	
