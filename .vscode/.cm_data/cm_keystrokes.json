@@ -1,0 +1,11 @@
+{
+    "settings.json": [
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Fri Jul 16 2021 14:36:01",
+            "keyStrokeInfo": "{\r\n    \"python.analysis.extraPaths\": [\r\n        \"./09-isperfectsquare-Python\"\r\n    ]\r\n}",
+            "position": "1,1"
+        }
+    ]
+}
