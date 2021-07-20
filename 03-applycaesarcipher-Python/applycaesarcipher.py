@@ -9,9 +9,18 @@
 # assert(applyCaesarCipher("We Attack At Dawn", 1) == "Xf Buubdl Bu Ebxo")
 # assert(applyCaesarCipher("zodiac", -2) == "xmbgya")
 
+def cipher(i,shift):
+    k=26 if shift<=0 else 0
+    a=97 if i.islower() else 65
+    p=(ord(i)+shift-a+k)%26
+    return chr(a+p)
 
 def fun_applycaesarcipher(msg, shift):
-	return ""
+    out=""
+    for i in msg:
+        out=out+(cipher(i,shift) if i.isalpha() else i)
+    return out
+    
 
 
 
