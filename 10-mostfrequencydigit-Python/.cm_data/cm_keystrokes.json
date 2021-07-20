@@ -930,6 +930,27 @@
             "keyStrokeTimeStamp": "Thu Jul 15 2021 11:23:07",
             "keyStrokeInfo": "\r\n        ",
             "position": "20,28"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 17,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 08:56:54",
+            "keyStrokeInfo": "",
+            "position": "4,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 08:56:55",
+            "keyStrokeInfo": "",
+            "position": "4,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 19,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 08:56:57",
+            "keyStrokeInfo": "def c(x,d):\r\n    count=0\r\n    while(x>0):\r\n        if(x%10==d):\r\n            count+=1\r\n        x=x//10\r\n    return count\r\ndef mostfrequentdigit(n):\r\n    n=abs(n)\r\n    digit=0\r\n    max=0\r\n    count=0\r\n    for i in range(10):\r\n        count= c(n,i)\r\n        if(count>max):\r\n            max=count\r\n            digit=i\r\n        \r\n    return digit",
+            "position": "4,1"
         }
     ]
 }
