@@ -1,0 +1,25 @@
+{
+    "triangleareabycoordinates.py": [
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 09:00:58",
+            "keyStrokeInfo": "",
+            "position": "8,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 10,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 09:01:02",
+            "keyStrokeInfo": "import math\r\nfrom math import sqrt\r\ndef triangleareabycoordinates(x1, y1, x2, y2, x3, y3):\r\n    # your code goes here\r\n    l1 = math.sqrt((x1 - x2)*2 + (y1 - y2)*2)\r\n    l2 = math.sqrt((x2 - x3)*2 + (y2 - y3)*2)\r\n    l3 = math.sqrt((x3 - x1)*2 + (y3 - y1)*2)\r\n    p = (l1 + l2 + l3)/2\r\n    area = sqrt(p * (p - l1) * (p - l2) * (p - l3))\r\n    return area",
+            "position": "7,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 09:01:45",
+            "keyStrokeInfo": "def triangleareabycoordinates(x1, y1, x2, y2, x3, y3): # your code goes here\r\n    area=0.5*( (x1*(y2-y3)) + (x2*(y3-y1)) + (x3*(y1-y2)) )\r\n    return area",
+            "position": "7,1"
+        }
+    ]
+}

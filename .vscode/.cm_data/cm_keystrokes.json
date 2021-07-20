@@ -1,0 +1,11 @@
+{
+    "settings.json": [
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Tue Jul 20 2021 09:01:19",
+            "keyStrokeInfo": "{\r\n    \"python.analysis.extraPaths\": [\r\n        \"./17-triangleareabycoordinates-Python\"\r\n    ]\r\n}",
+            "position": "1,1"
+        }
+    ]
+}
