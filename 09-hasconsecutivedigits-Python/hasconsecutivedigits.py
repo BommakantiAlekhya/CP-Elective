@@ -5,7 +5,7 @@
 def hasconsecutivedigits(n):
     	# your code goes here
 	n=abs(n)
-	d=-1
+	d=3
 	if (n==0):
 		return False
 	else:
