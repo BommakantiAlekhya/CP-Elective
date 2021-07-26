@@ -1,0 +1,32 @@
+{
+    "removeRowAndCol.py": [
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 12:32:56",
+            "keyStrokeInfo": "",
+            "position": "24,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 15,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 12:32:57",
+            "keyStrokeInfo": "def removeRowAndCol(L, row, col):\r\n    # Your code goes here...\r\n    L.pop(row)\r\n    for i in range(len(L)):\r\n        L[i].pop(col)\r\n    return L\r\n    \r\n\r\n# Write your own test cases.\r\nL=[[2,3,4,5],\r\n[8,7,6,5],\r\n[0,1,2,3]]\r\nrow = 1\r\ncol = 2\r\nprint(removeRowAndCol(L,row,col))",
+            "position": "24,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 12:33:29",
+            "keyStrokeInfo": "",
+            "position": "40,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 12:33:30",
+            "keyStrokeInfo": "",
+            "position": "39,1"
+        }
+    ]
+}
