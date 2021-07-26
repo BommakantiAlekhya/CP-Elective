@@ -3,17 +3,17 @@
 # number contains two consecutive digits that are the same, and False otherwise.
 
 def hasconsecutivedigits(n):
-    n = abs(n)
-    if n<100:
-        return False
-    res = list(map(int, str(n)))
-    # sorted_list = sorted(res)
-    p = -1
-    while n!=0:
-        k=n%10
-        if k==p:
-            return True
-        p=k
-        n=n//10
-        return False
+    	# your code goes here
+	n=abs(n)
+	d=-1
+	if (n==0):
+		return False
+	else:
+		while (n!=0):
+			a=n%10
+			n//=10
+			if (d==a):
+				return True
+			d=a
+		return False
     

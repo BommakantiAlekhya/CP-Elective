@@ -1602,6 +1602,27 @@
             "keyStrokeTimeStamp": "Fri Jul 23 2021 08:52:28",
             "keyStrokeInfo": "\r\n    ",
             "position": "18,21"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 13,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 12:29:09",
+            "keyStrokeInfo": "",
+            "position": "5,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 14,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 12:29:10",
+            "keyStrokeInfo": "def hasconsecutivedigits(n):\r\n\t# your code goes here\r\n\tn=abs(n)\r\n\td=-1\r\n\tif (n==0):\r\n\t\treturn False\r\n\telse:\r\n\t\twhile (n!=0):\r\n\t\t\ta=n%10\r\n\t\t\tn//=10\r\n\t\t\tif (d==a):\r\n\t\t\t\treturn True\r\n\t\t\td=a\r\n\t\treturn False",
+            "position": "5,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 12:29:11",
+            "keyStrokeInfo": "    ",
+            "position": "6,1"
         }
     ]
 }
