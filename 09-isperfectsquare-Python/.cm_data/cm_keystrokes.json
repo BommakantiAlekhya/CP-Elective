@@ -2715,6 +2715,90 @@
             "keyStrokeTimeStamp": "Fri Jul 23 2021 08:47:27",
             "keyStrokeInfo": "#",
             "position": "18,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 14,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 15:45:31",
+            "keyStrokeInfo": "",
+            "position": "7,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 15,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 15:45:31",
+            "keyStrokeInfo": "import math\r\ndef largestperfectsquare(n):\r\n\treturn int(math.sqrt(n))*int(math.sqrt(n))\r\n\r\n    \t\r\n    # while n > 0:\r\n    #     i = 1\r\n    #     while i <= n//2:\r\n    #         square = i*i\r\n    #         if square == n:\r\n    #             return square\r\n    #         else:\r\n    #             i += 1\r\n    #     n -= 1\r\n    # return 1",
+            "position": "7,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 15:45:54",
+            "keyStrokeInfo": "",
+            "position": "9,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 15:45:55",
+            "keyStrokeInfo": "",
+            "position": "8,29"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 15:45:55",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "8,29"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 15:46:05",
+            "keyStrokeInfo": "",
+            "position": "8,29"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 15:46:05",
+            "keyStrokeInfo": "\r\n",
+            "position": "8,29"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 15:46:05",
+            "keyStrokeInfo": "    ",
+            "position": "9,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 15:46:07",
+            "keyStrokeInfo": "",
+            "position": "9,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 15:46:07",
+            "keyStrokeInfo": "\t",
+            "position": "9,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 14,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 15:46:07",
+            "keyStrokeInfo": "",
+            "position": "7,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 13,
+            "keyStrokeTimeStamp": "Mon Jul 26 2021 15:46:08",
+            "keyStrokeInfo": "import math\r\ndef isperfectsquare(n):\r\n    n = int(n)\r\n    m = math.sqrt(n)\r\n    if (n>=0) and (n==m*m) and type(n)==int:\r\n        return True\r\n    else:\r\n        return False\r\n    #if (math.ceil(math.sqrt(n)))==math.floor(math.sqrt(n)):\r\n        #return True\r\n    #else:\r\n        #return False\r\n    print(isperfectsquare(\"hello\"))\r\n\r\n",
+            "position": "7,1"
         }
     ]
 }
