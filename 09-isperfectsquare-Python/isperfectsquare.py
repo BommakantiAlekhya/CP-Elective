@@ -16,5 +16,5 @@ def isperfectsquare(n):
         #return True
     #else:
         #return False
-    print(isperfectsquare("hello"))
+    print(isperfectsquare(5))
 
