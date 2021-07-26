@@ -3,13 +3,17 @@
 # number contains two consecutive digits that are the same, and False otherwise.
 
 def hasconsecutivedigits(n):
-    n=abs(n)
-    prev_digit= -1
-    while (n > 0):
-        one_digit = n%10
-        n //=10
-        if (prev_digit == one_digit):
-            return True
-        prev_digit=one_digit
+    n = abs(n)
+    if n<100:
         return False
-    print(hasconsecutivedigits(int(input())))
+    res = list(map(int, str(n)))
+    # sorted_list = sorted(res)
+    p = -1
+    while n!=0:
+        k=n%10
+        if k==p:
+            return True
+        p=k
+        n=n//10
+        return False
+    
