@@ -1,0 +1,11 @@
+{
+    "matrixmultiply.py": [
+        {
+            "operation": "PASTE",
+            "lines": 25,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:37:08",
+            "keyStrokeInfo": "def read2DArray():\r\n    a = []\r\n    l = int(input())\r\n    for i in range(l):\r\n        s = input().split(\" \")\r\n        t = []\r\n        for j in range(len(s)):\r\n            t.append(int(s[j]))\r\n        a.append(t)\r\n    return a\r\n\r\ndef fun_matrixmultiply(m1, m2):\r\n        # your code goes here\r\n    if(len(m1[0])!=len(m2)):\r\n        return None\r\n    else:\r\n        m3=[]\r\n        for i in range(len(m1)):\r\n            m3+=[[0]*len(m2[0])]\r\n            \r\n        for i in range(len(m1)):\r\n            for j in range(len(m2[0])):\r\n                for k in range(len(m2)):\r\n                    m3[i][j]+=m1[i][k]*m2[k][j]\r\n    return m3",
+            "position": "7,1"
+        }
+    ]
+}
