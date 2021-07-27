@@ -1,0 +1,11 @@
+{
+    "nth_happy_prime.py": [
+        {
+            "operation": "PASTE",
+            "lines": 40,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:30:42",
+            "keyStrokeInfo": "def isprime(x):\r\n    count=0\r\n    if x>1:\r\n        for i in range(1,x+1):\r\n            if(x%i)==0:\r\n                count = count+1\r\n        if count == 2:\r\n            return True\r\n        else:\r\n            return False\r\ndef powerfulnumber(x):\r\n    if(x==1):\r\n        return True\r\n    \r\n    else:\r\n        \r\n        count=0\r\n        count2=0\r\n        for i in range(2,int(x/2)+1):\r\n            if(x%i==0 and isprime(i)):\r\n                count+=1\r\n                if(x%(i*i)==0):\r\n                    count2+=1\r\n        print(count,count2)\r\n        if(count==0 or count2==0):\r\n            return False\r\n        elif(count==count2):\r\n            return True\r\n\r\n    return False\r\n\r\ndef nthpowerfulnumber(n):\r\n\r\n    found = 0\r\n    guess = 0\r\n    while (found <= abs(n)):\r\n        guess += 1\r\n        if(powerfulnumber(guess)):\r\n            found += 1\r\n    return guess",
+            "position": "7,1"
+        }
+    ]
+}
