@@ -1,0 +1,18 @@
+{
+    "smallestdifference.py": [
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:09:24",
+            "keyStrokeInfo": "",
+            "position": "7,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 18,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:09:41",
+            "keyStrokeInfo": "from operator import abs\r\ndef readArray():\r\n    s = input().split(\" \")\r\n    l = []\r\n    for i in s:\r\n        if len(i) != 0:\r\n            l.append(int(i))\r\n    return l\r\n\r\ndef smallestdifference(a):\r\n    if(a==[]):\r\n        return(-1)\r\n    d=10**20\r\n    for i in range(len(a)-1):\r\n        for j in range(i+1,len(a)):\r\n            if(abs(a[i]-a[j])<d):\r\n                d=abs(a[i]-a[j])\r\n    return (d)",
+            "position": "7,1"
+        }
+    ]
+}
