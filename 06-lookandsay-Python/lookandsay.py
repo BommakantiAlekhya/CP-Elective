@@ -9,6 +9,20 @@
 # lookAndSay([3,3,8,-10,-10,-10]) == [(2,3),(1,8),(3,-10)]
 # lookAndSay([3,3,8,3,3,3,3]) == [(2,3),(1,8),(4,3)]
 
+def readArray():
+    a = []
+    l=()
+    for i in range(l):
+        a.append(int(input()))
+        return a
+
 def lookandsay(a):
 	# Your code goes here
-	pass
+	result=[]
+	for digit in a:
+		if result ==[] or digit!=result[-1][1]:
+			result.append((1,digit))
+		else:
+			count, digit = result.pop()
+			result.append((count+1, digit))
+	return result
