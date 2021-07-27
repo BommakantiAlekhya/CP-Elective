@@ -1,0 +1,144 @@
+{
+    "threelines_area.py": [
+        {
+            "operation": "DELETE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:28:07",
+            "keyStrokeInfo": "",
+            "position": "5,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 6,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:28:19",
+            "keyStrokeInfo": "import math\r\n\r\ndef fun_threelines_area(a, b, c):\r\n\ts=(0.5*(a+b+c))\r\n\tarea=int(math.sqrt(s*((s-a)(s-b)(s-c))))\r\n\treturn area",
+            "position": "5,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:28:20",
+            "keyStrokeInfo": "\r\n",
+            "position": "10,13"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 6,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:28:48",
+            "keyStrokeInfo": "import math\r\n\r\ndef fun_threelines_area(a, b, c):\r\n\tperimeter = (a + b + c) / 2  \r\n\tarea = math.sqrt((perimeter*(perimeter-a)(perimeter-b)(perimeter-c)))\r\n\treturn int(area)",
+            "position": "5,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:28:57",
+            "keyStrokeInfo": "",
+            "position": "6,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:28:57",
+            "keyStrokeInfo": "",
+            "position": "5,12"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:28:58",
+            "keyStrokeInfo": "\r\n",
+            "position": "5,12"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:29:00",
+            "keyStrokeInfo": "",
+            "position": "7,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:29:01",
+            "keyStrokeInfo": "",
+            "position": "6,34"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:29:01",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "6,34"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:29:04",
+            "keyStrokeInfo": "",
+            "position": "8,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:29:04",
+            "keyStrokeInfo": "",
+            "position": "7,34"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:29:05",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "7,34"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:29:07",
+            "keyStrokeInfo": "",
+            "position": "9,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:29:07",
+            "keyStrokeInfo": "",
+            "position": "8,74"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:29:08",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "8,74"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:29:18",
+            "keyStrokeInfo": "c",
+            "position": "5,8"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:29:22",
+            "keyStrokeInfo": "c",
+            "position": "8,12"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:29:31",
+            "keyStrokeInfo": "",
+            "position": "5,8"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:29:34",
+            "keyStrokeInfo": "",
+            "position": "8,12"
+        }
+    ]
+}

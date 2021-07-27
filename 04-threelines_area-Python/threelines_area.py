@@ -3,7 +3,8 @@
 # find the area of a triangle(return an int) given its side lengths.
 
 import math
-
 def fun_threelines_area(a, b, c):
-	return 0
+    perimeter = (a + b + c) / 2  
+    area = math.sqrt((perimeter*(perimeter-a)(perimeter-b)(perimeter-c)))
+    return int(area)
 	
