@@ -1,0 +1,11 @@
+{
+    "multipolynomials.py": [
+        {
+            "operation": "PASTE",
+            "lines": 20,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:38:05",
+            "keyStrokeInfo": "def multiplyPolynomials(p1, p2):\r\n    len_a=len(p1)\r\n    len_b=len(p2)\r\n    result=[]\r\n    result_len=len_a+len_b-1\r\n    \r\n    for i in range(result_len):\r\n        result.append(0)\r\n        \r\n    for i in range(len_a):\r\n        for j in range(len_b):\r\n            result[i+j]+=p1[i]*p2[j]\r\n    return result\r\n    # Your code goes here...\r\n    pass\r\n\r\n# Write your own test cases\r\np1=[2,0,3]\r\np2=[4,5]\r\nprint(multiplyPolynomials(p1,p2))",
+            "position": "8,1"
+        }
+    ]
+}
