@@ -1,0 +1,11 @@
+{
+    "alternatingsum.py": [
+        {
+            "operation": "PASTE",
+            "lines": 8,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:36:20",
+            "keyStrokeInfo": "def fun_alternatingsum(a):\r\n    altSum=0\r\n    for i in range(len(a)):\r\n        if i%2==0:  #i  takes index not a value \r\n            altSum+=a[i]\r\n        else:\r\n            altSum-=a[i]\r\n    return altSum",
+            "position": "8,1"
+        }
+    ]
+}
