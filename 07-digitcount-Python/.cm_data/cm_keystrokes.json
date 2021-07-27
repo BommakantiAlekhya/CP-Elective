@@ -1,0 +1,18 @@
+{
+    "digitcount.py": [
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:17:16",
+            "keyStrokeInfo": "",
+            "position": "8,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 10,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:17:30",
+            "keyStrokeInfo": "def digitcount(n):\r\n    n=abs(n)\r\n    c=0\r\n    if(n==0):\r\n        return 1\r\n    else:\r\n        while (n>0):\r\n            n//=10\r\n            c+=1\r\n        return c",
+            "position": "8,1"
+        }
+    ]
+}
