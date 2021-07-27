@@ -1,0 +1,312 @@
+{
+    "rectangle_overlap.py": [
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:24:53",
+            "keyStrokeInfo": "",
+            "position": "10,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 10,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:25:06",
+            "keyStrokeInfo": "def fun_rectangle_overlap(left1, top1, width1, height1, left2, top2, width2, height2):\r\n    return True\r\n    factor1=((left2>left1)and(left2>left1+width1))\r\n    factor2=((left1>left2)and(left1>left2+width2))\r\n    factor3=((top2>top1)and(top2>top1+height1))\r\n    factor4=((top1>top2)and(top1>top2+height2))\r\n    if(factor1 or factor2 or factor3 or factor4):\r\n        return False\r\n    else:\r\n        return True",
+            "position": "10,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:25:33",
+            "keyStrokeInfo": "",
+            "position": "11,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:25:34",
+            "keyStrokeInfo": "",
+            "position": "10,87"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:25:35",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "10,87"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:25:36",
+            "keyStrokeInfo": "",
+            "position": "12,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:25:36",
+            "keyStrokeInfo": "",
+            "position": "11,16"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:25:37",
+            "keyStrokeInfo": "\r\n",
+            "position": "11,16"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:25:40",
+            "keyStrokeInfo": "",
+            "position": "13,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:25:40",
+            "keyStrokeInfo": "",
+            "position": "12,47"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:25:41",
+            "keyStrokeInfo": "\r\n",
+            "position": "12,47"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:25:44",
+            "keyStrokeInfo": "",
+            "position": "14,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:25:44",
+            "keyStrokeInfo": "",
+            "position": "13,47"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:25:45",
+            "keyStrokeInfo": "\r\n",
+            "position": "13,47"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:25:52",
+            "keyStrokeInfo": "",
+            "position": "15,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:25:52",
+            "keyStrokeInfo": "",
+            "position": "14,44"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:25:53",
+            "keyStrokeInfo": "\r\n",
+            "position": "14,44"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:25:57",
+            "keyStrokeInfo": "",
+            "position": "14,44"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:25:58",
+            "keyStrokeInfo": "\r\n",
+            "position": "14,44"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:26:01",
+            "keyStrokeInfo": "",
+            "position": "16,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:26:01",
+            "keyStrokeInfo": "",
+            "position": "15,44"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:26:02",
+            "keyStrokeInfo": "\r\n",
+            "position": "15,44"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:26:05",
+            "keyStrokeInfo": "",
+            "position": "17,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:26:05",
+            "keyStrokeInfo": "",
+            "position": "17,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:26:05",
+            "keyStrokeInfo": "",
+            "position": "16,46"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:26:06",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "16,46"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:26:08",
+            "keyStrokeInfo": "",
+            "position": "18,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:26:08",
+            "keyStrokeInfo": "",
+            "position": "17,17"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:26:09",
+            "keyStrokeInfo": "\r\n",
+            "position": "17,17"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:26:12",
+            "keyStrokeInfo": "",
+            "position": "17,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:26:12",
+            "keyStrokeInfo": "",
+            "position": "16,46"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:26:13",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "16,46"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:26:23",
+            "keyStrokeInfo": "",
+            "position": "15,44"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:26:24",
+            "keyStrokeInfo": "\r\n",
+            "position": "15,44"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:26:27",
+            "keyStrokeInfo": "",
+            "position": "17,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:26:27",
+            "keyStrokeInfo": "",
+            "position": "16,46"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:26:28",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "16,46"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:26:31",
+            "keyStrokeInfo": "",
+            "position": "17,17"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:26:32",
+            "keyStrokeInfo": "\r\n",
+            "position": "17,17"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:26:34",
+            "keyStrokeInfo": "",
+            "position": "19,5"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:26:34",
+            "keyStrokeInfo": "",
+            "position": "19,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:26:34",
+            "keyStrokeInfo": "",
+            "position": "18,6"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:26:35",
+            "keyStrokeInfo": "\r\n    ",
+            "position": "18,6"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 10,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:26:41",
+            "keyStrokeInfo": "def fun_rectangle_overlap(left1, top1, width1, height1, left2, top2, width2, height2):\r\n    return True\r\n    factor1=((left2>left1)and(left2>left1+width1))\r\n    factor2=((left1>left2)and(left1>left2+width2))\r\n    factor3=((top2>top1)and(top2>top1+height1))\r\n    factor4=((top1>top2)and(top1>top2+height2))\r\n    if(factor1 or factor2 or factor3 or factor4):\r\n        return False\r\n    else:\r\n        return True",
+            "position": "10,1"
+        }
+    ]
+}
