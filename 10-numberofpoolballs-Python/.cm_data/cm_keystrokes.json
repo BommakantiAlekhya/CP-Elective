@@ -1,0 +1,25 @@
+{
+    "numberofpoolballs.py": [
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:07:52",
+            "keyStrokeInfo": "",
+            "position": "10,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 8,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:08:04",
+            "keyStrokeInfo": "def numberofpoolballs(rows):\r\n\t# Your code goes here\r\n\tl=list()\r\n\tfor i in range(rows+1):\r\n\t\tif i<=rows:\r\n\t\t\tl.append(i)\r\n\t\t\ts=sum(l)\r\n\treturn s",
+            "position": "10,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:08:04",
+            "keyStrokeInfo": "    ",
+            "position": "11,1"
+        }
+    ]
+}
