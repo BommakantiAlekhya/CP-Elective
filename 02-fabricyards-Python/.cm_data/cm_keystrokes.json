@@ -1,0 +1,25 @@
+{
+    "fabricyards.py": [
+        {
+            "operation": "DELETE",
+            "lines": 6,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:12:29",
+            "keyStrokeInfo": "",
+            "position": "15,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 25,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:12:54",
+            "keyStrokeInfo": "def fabricyards(inches):\r\n\t# Your code goes here...\r\n\tunity=36\r\n\tif(inches==0):\r\n    \t\treturn(0)\r\n\tif(1<=inches<=unity):\r\n    \t\treturn(1)\r\n\tif(36<=inches<=unity*2):\r\n\t\t\treturn(2)\r\n\tif(72<=inches<=unity*3):\r\n\t\t\treturn(3)\r\n\r\ndef fabricexcess(inches):\r\n\t# Your code goes here...\r\n\tunity=36\r\n\tif(inches==0):\r\n\t\treturn 0\r\n\tif(1<=inches<=unity):\r\n\t\treturn abs(unity-inches)\r\n\tif(36<=inches<=unity*2):\r\n    \t\treturn abs(unity*2-inches)\t\t\r\n\tif(72<=inches<=unity*3):\r\n    \t\treturn abs(unity*3-inches)\r\n\tif(108<=inches<unity*4):\r\n    \t\treturn abs(unity*4-inches)",
+            "position": "15,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:12:54",
+            "keyStrokeInfo": "    ",
+            "position": "16,1"
+        }
+    ]
+}
