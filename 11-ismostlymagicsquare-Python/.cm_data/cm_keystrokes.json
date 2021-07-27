@@ -1,0 +1,25 @@
+{
+    "ismostlymagicsquare.py": [
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:05:23",
+            "keyStrokeInfo": "",
+            "position": "16,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 21,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:05:54",
+            "keyStrokeInfo": "def ismostlymagicsquare(arr):\r\n\t# Your code goes here\r\n\tleftdiag=0\r\n\trightdiag=0\r\n\tn=len(arr)\r\n\tfor i in range(n):\r\n\t\tleftdiag +=arr[i][i]\r\n\t\trightdiag+=arr[i][n-i-1]\r\n\tif leftdiag != rightdiag:\r\n\t\treturn False\r\n\r\n\tfor i in range(n):\r\n\t\trow=0\r\n\t\tcol=0\r\n\t\tfor j in range(n):\r\n\t\t\trow+=arr[i][i]\r\n\t\t\tcol+=arr[j][i]\r\n            \r\n\t\tif row!= leftdiag and col!=leftdiag:\r\n\t\t\treturn False\r\n\treturn True",
+            "position": "16,1"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:05:54",
+            "keyStrokeInfo": "    ",
+            "position": "17,1"
+        }
+    ]
+}
