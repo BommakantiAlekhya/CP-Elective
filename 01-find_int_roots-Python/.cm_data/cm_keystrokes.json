@@ -1,0 +1,18 @@
+{
+    "find_int_roots.py": [
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:06:59",
+            "keyStrokeInfo": "",
+            "position": "9,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 6,
+            "keyStrokeTimeStamp": "Tue Jul 27 2021 13:07:11",
+            "keyStrokeInfo": "import cmath\r\ndef fun_find_int_roots(a, b, c):\r\n    d=(b**2)-(4*a*c)\r\n    soln1=(-b-(cmath.sqrt(d)))/2*a\r\n    soln2=(-b+(cmath.sqrt(d)))/2*a\r\n    return soln1,soln2",
+            "position": "9,1"
+        }
+    ]
+}
