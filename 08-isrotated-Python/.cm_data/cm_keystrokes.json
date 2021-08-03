@@ -1,0 +1,18 @@
+{
+    "isrotated.py": [
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Tue Aug 03 2021 15:33:42",
+            "keyStrokeInfo": "",
+            "position": "7,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 8,
+            "keyStrokeTimeStamp": "Tue Aug 03 2021 15:33:59",
+            "keyStrokeInfo": "def isrotated(str1, str2):  \r\n    if len(str1) != len(str2):\r\n        return False \r\n    str3 = str1 + str1 \r\n    if (str3.count(str2)> 0):\r\n        return True\r\n    else:\r\n        return False",
+            "position": "7,1"
+        }
+    ]
+}
