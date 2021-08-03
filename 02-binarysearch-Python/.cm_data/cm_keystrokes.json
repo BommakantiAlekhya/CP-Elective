@@ -1,0 +1,11 @@
+{
+    "binarysearch.py": [
+        {
+            "operation": "PASTE",
+            "lines": 18,
+            "keyStrokeTimeStamp": "Tue Aug 03 2021 15:37:28",
+            "keyStrokeInfo": "def binary_search(input_array, value): \r\n    # Your code goes here \r\n    begin_index = 0\r\n    end_index = len(input_array) - 1\r\n   \r\n    while begin_index <= end_index:\r\n        midpoint = begin_index + (end_index - begin_index) // 2\r\n        midpoint_value = input_array[midpoint]\r\n        if midpoint_value == value:\r\n            return midpoint\r\n\r\n        elif value < midpoint_value:\r\n            end_index = midpoint - 1\r\n\r\n        else:\r\n            begin_index = midpoint + 1\r\n\r\n    return -1",
+            "position": "13,1"
+        }
+    ]
+}
