@@ -1,0 +1,18 @@
+{
+    "interleave.py": [
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Tue Aug 03 2021 15:34:52",
+            "keyStrokeInfo": "",
+            "position": "10,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 24,
+            "keyStrokeTimeStamp": "Tue Aug 03 2021 15:34:54",
+            "keyStrokeInfo": "def fun_interleave(s1,s2):\r\n    s=\"\"\r\n    if(len(s1)>len(s2)):\r\n        for i in range(len(s2)):\r\n            s+=s1[i]+s2[i]\r\n        s+=s1[len(s2):]\r\n    else:\r\n\t    for i in range(len(s1)):\r\n\t\t    s+=s1[i]+s2[i]\r\n\t    s+=s2[len(s1):]\r\n    return s\r\n\r\n\r\n# def fun_interleave(s1, s2):\r\n#     i=0\r\n#     res=''\r\n#     s=max(len(s1),len(s2))\r\n#     while i<s:\r\n#         if i<len(s1):\r\n#             res=res+s1[i]\r\n#         if i<len(s2):\r\n#             res=res+s2[i]\r\n#         i=i+1\r\n#     return res",
+            "position": "10,1"
+        }
+    ]
+}
